@@ -24,13 +24,13 @@ public class IntTree {
   }
 
   // Overloaded method to recursively print the tree
-  private void print(IntTreeNode root) {
+  private void print(IntTreeNode subtree) {
     // (base case is implicitly to do nothing on null)
-    if (root != null) {
+    if (subtree != null) {
       // recursive case: print left, center, right
-      print(root.left);
-      System.out.print(root.data + " ");
-      print(root.right);
+      print(subtree.left);
+      System.out.print(subtree.data + " ");
+      print(subtree.right);
     }
   }
 

@@ -3,11 +3,11 @@ package edu.brandeis.cosi12b.inttreedemo;
 public class IntTreeDemo {
 
   public static void main(String[] args) {
-    //example1();
+    example1();
     //example2();
     //example3();
     //example4();
-    example5();
+    //example5();
   }
   
   private static void example1() {
